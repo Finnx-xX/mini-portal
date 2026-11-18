@@ -1,0 +1,16 @@
+.bg-dark-cyan {
+  background-color: rgb(84, 167, 255) !important;
+}
+.color-dark-cyan {
+  color: #003e4a !important;
+  text-shadow: 3px 2px 3px #a7f0f7;
+}
+.border-dark-cyan {
+  border-color: #04a5c6 !important;
+}
+.font-round {
+  font-family: 'Nunito', sans-serif;
+}
+body{
+  background-color: #0dd4de;
+}

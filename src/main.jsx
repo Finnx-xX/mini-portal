@@ -1,0 +1,14 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './styl.css';
+import { Header } from './Header.jsx';
+import { Tabel } from './Tabel.jsx';
+
+createRoot(document.getElementById('root')).render(
+<StrictMode>
+  <Header />
+  <Tabel />
+</StrictMode>
+)
